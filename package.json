@@ -1,0 +1,13 @@
+{
+  "name": "vapor-monkey-bot",
+  "description": "Silly bot designed to spam the afk voice channel",
+  "version": "0.1.0",
+  "author": "patetico",
+  "license": "MIT",
+  "scripts": {
+    "start": "main.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}
