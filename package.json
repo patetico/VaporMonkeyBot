@@ -5,9 +5,16 @@
   "author": "patetico",
   "license": "MIT",
   "scripts": {
-    "start": "main.js"
+    "start": "main.js",
+    "lint": "eslint ./**/*.js --format pretty"
   },
   "dependencies": {
     "discord.js": "^12.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-formatter-pretty": "^4.0.0",
+    "eslint-plugin-import": "^2.22.0"
   }
 }
